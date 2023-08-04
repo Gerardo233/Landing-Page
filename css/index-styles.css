@@ -165,22 +165,62 @@ body {
 
 #main .quo-container {
 	background-color: #e5e7eb;
-    padding: 100px;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+#main .quo-container .in-content {
+	width: 60%;
+	height: auto;
+}
+
+#main .quo-container .in-content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	line-height: 1.4;
+}
+
+#main .quo-container .in-content p em span {
+	font-weight: bold;
+}
+
+/*Section alert for Signing up */
+
+.alert {
+	width: 70%;
+	height: auto;
+	padding: 30px;
+	background-color: #3882f6;
+	margin: 0 auto 50px;
+	border-radius: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#main .quo-container .in-content{
-    width:60%;
-    height: auto;
+.alert .text{
+    width: 40%;
 }
 
-#main .quo-container .in-content p{
+/* .alert > .text :where( h2, p, .btn-alert){
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 1.4;
+    color: white;
+} */
+
+.alert > .text h2, .text p, .alert button{
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-#main .quo-container .in-content p  em span{
-    font-weight: bold;
+.alert button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 18px;
 }
+
