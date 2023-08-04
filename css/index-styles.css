@@ -5,45 +5,98 @@
 }
 
 /*Body global styles*/
-body{
-    font-size: 16px;
+body {
+	font-size: 16px;
 }
 /*Header styles*/
-#header{
+#header {
+	width: 100%;
+	height: auto;
+	padding: 10px 20px 50px;
+	background-color: #1f2937;
+	display: flex;
+	flex-direction: column;
+}
+
+#header section {
+	width: 80%;
+	height: auto;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+#header > .logo-and-options {
+	height: 90px;
+	display: flex;
+	font-family: robo;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#header > .logo-and-options h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+#header > .logo-and-options ul li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	list-style: none;
+	display: inline-block;
+	margin: 0 0 0 100px;
+}
+
+#header > .welcome-section {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#header > .welcome-section > .txtinf {
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+    align-content: space-between;
+    gap: 20px;
+}
+
+#header > .welcome-section > .imgfig {
+	width: 55%;
+	height: auto;
+	background-image: url('/img/pexels-kevin-ku-577585.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header > .welcome-section > .txtinf > h1 {
+	font-size: 48px;
+	font-weight: 700;
+    height: min-content;
     width: 100%;
-    height: auto;
-    padding: 20px;
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
+    line-height: 1.5;
 }
 
-#header > section{
-    width: 100%;
-    height: 400px;
+#header > .welcome-section > .txtinf > p{
+height: min-content;
+width: 100%;
+line-height: 1.4;
+font-weight: 400;
+font-size: 18px;
 }
 
-#header > .logo-and-options{
-    width: 80%;
-    height: 90px;
-    display: flex;
-    color: white;
-    font-family: robo;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+#header > .welcome-section > .txtinf > .btn {
+	background-color: #3882f6;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	border-radius: 25px;
+    display: block;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    flex: 1 1 auto;
+    max-width: 60%;
 }
-
-#header > .logo-and-options h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-#header > .logo-and-options ul li{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    list-style: none;
-    display: inline-block;
-    margin: 0  0 0 100px;
-}
-
