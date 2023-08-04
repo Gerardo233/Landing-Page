@@ -57,8 +57,8 @@ body {
 	width: 40%;
 	display: flex;
 	flex-wrap: wrap;
-    align-content: space-between;
-    gap: 20px;
+	align-content: space-between;
+	gap: 20px;
 }
 
 #header > .welcome-section > .imgfig {
@@ -73,17 +73,17 @@ body {
 #header > .welcome-section > .txtinf > h1 {
 	font-size: 48px;
 	font-weight: 700;
-    height: min-content;
-    width: 100%;
-    line-height: 1.5;
+	height: min-content;
+	width: 100%;
+	line-height: 1.5;
 }
 
-#header > .welcome-section > .txtinf > p{
-height: min-content;
-width: 100%;
-line-height: 1.4;
-font-weight: 400;
-font-size: 18px;
+#header > .welcome-section > .txtinf > p {
+	height: min-content;
+	width: 100%;
+	line-height: 1.4;
+	font-weight: 400;
+	font-size: 18px;
 }
 
 #header > .welcome-section > .txtinf > .btn {
@@ -93,10 +93,80 @@ font-size: 18px;
 	font-weight: 400;
 	font-size: 18px;
 	border-radius: 25px;
-    display: block;
-    height: 40px;
-    padding: 10px;
-    border: none;
-    flex: 1 1 auto;
-    max-width: 60%;
+	display: block;
+	height: 40px;
+	padding: 10px;
+	border: none;
+	flex: 1 1 auto;
+	max-width: 60%;
+}
+
+/*Main section styles (body of the topic)*/
+
+#main {
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.title,
+.plang-img-container,
+.quo-container {
+	width: 100%;
+	flex-basis: auto;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.plang-img-container,
+.quo-container {
+	flex-grow: 3;
+}
+
+.title {
+	flex-grow: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #1f2937;
+	justify-content: center;
+	align-items: center;
+}
+
+.plang-img-container {
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+    margin-top: 50px;
+}
+
+.plang-img-container div {
+	width: 350px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.plang-img-container .plang-img p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-align: center;
+    width: 75%;
+}
+
+.plang-img-container .plang-img .img-langpro {
+	width: 200px;
+	height: 200px;
+}
+
+.plang-img-container .plang-img .img-langpro img {
+	object-fit: fill;
+	object-position: center;
+	height: 100%;
+	width: 100%;
+	filter: drop-shadow(0px 0px 10px black);
 }
