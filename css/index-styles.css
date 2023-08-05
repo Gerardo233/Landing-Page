@@ -5,19 +5,20 @@
 }
 
 /*Body global styles*/
-body {
+body{
 	display: flex;
 }
 body .container-all {
 	font-size: 16px;
 }
 
-.container-all {
+.container-all{
 	display: flex;
 	flex-direction: column;
 	flex-basis: 900px;
 	flex-grow: 1;
 	flex-shrink: 0;
+	
 }
 /*Header styles*/
 #header {
@@ -75,7 +76,7 @@ body .container-all {
 #header > .welcome-section > .imgfig {
 	width: 55%;
 	height: auto;
-	background: url('/img/undraw_Pair_programming_re_or4x.png');
+	background-image: url('/img/undraw_pair_programming_re_or4x.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -109,6 +110,7 @@ body .container-all {
 	padding: 10px;
 	border: none;
 	flex: 1 1 auto;
+	
 }
 
 /*Main section styles (body of the topic)*/
@@ -205,13 +207,13 @@ body .container-all {
 	background-color: #3882f6;
 	margin: 0 auto 50px;
 	border-radius: 15px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.alert .text {
-	width: 40%;
+.alert .text{
+    width: 40%;
 }
 
 /* .alert > .text :where( h2, p, .btn-alert){
@@ -219,31 +221,29 @@ body .container-all {
     color: white;
 } */
 
-.alert > .text h2,
-.text p,
-.alert button {
-	color: white;
-	font-family: 'Roboto', sans-serif;
+.alert > .text h2, .text p, .alert button{
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-.alert button {
-	background-color: #3882f6;
-	border: 2px solid white;
-	height: 40px;
-	width: 200px;
-	border-radius: 15px;
-	font-weight: 400;
-	font-size: 18px;
+.alert button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 /*Footer styles*/
-#footer {
-	width: 100%;
-	height: 100px;
-	background-color: #1f2937;
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
