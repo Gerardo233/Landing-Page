@@ -76,7 +76,7 @@ body .container-all {
 #header > .welcome-section > .imgfig {
 	width: 55%;
 	height: auto;
-	background-image: url('/img/undraw_pair_programming_re_or4x.svg');
+	background: url('/img/undraw_pair_programming_re_or4x.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
